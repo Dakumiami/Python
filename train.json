@@ -1,0 +1,11 @@
+[ 
+    {
+        "Problem": "the simple interest on a sum of money will be rs . 600 after 10 years . if the principal is trebled after 5 years what will be the total interest at the end of the tenth year ?",
+        "Rationale": "\"p - - - 10 - - - - 600 p - - - 5 - - - - - 300 3 p - - - 5 - - - - - 900 - - - - - - = > 1200 answer : c\"",
+        "options": "a ) 8981 , b ) 3799 , c ) 1200 , d ) 2693 , e ) 1732",
+        "correct": "c",
+        "annotated_formula": "add(multiply(multiply(divide(600, 10), 5), const_3), multiply(divide(600, 10), 5))",
+        "linear_formula": "divide(n0,n1)|multiply(n2,#0)|multiply(#1,const_3)|add(#2,#1)|",
+        "category": "general"
+    }
+]
